@@ -62,7 +62,7 @@ app.post('/daily-update-naukri-profile', async (req, res) => {
     }
 });
 
-cron.schedule('0 6 * * *', () => {
+cron.schedule('0 1 * * *', () => {
     axios.post('http://localhost:7051/daily-update-naukri-profile', {
         "username": "edit your email id",
         "password": "add your password"
