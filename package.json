@@ -1,0 +1,33 @@
+{
+  "name": "browser-page-automation",
+  "version": "1.0.0",
+  "description": "Page update using browser automation libraries scripts over top of it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harish2296/browser-page-automation.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "pptr",
+    "browser",
+    "automation",
+    "page",
+    "automation"
+  ],
+  "author": "Harish Vijayakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harish2296/browser-page-automation/issues"
+  },
+  "homepage": "https://github.com/harish2296/browser-page-automation#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "puppeteer": "^5.2.0"
+  }
+}
